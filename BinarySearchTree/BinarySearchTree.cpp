@@ -34,6 +34,11 @@ public:
 		Node* currentNode = NULL;
 
 		search(element, parent, currentNode);   // Locate the node which will be the parent of the new node
+
+		if (parent == NULL) //if the parent is NULL (Tree is empty)
+		{
+
+		}
 	}
 };
 
